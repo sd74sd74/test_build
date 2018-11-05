@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B739970218C93E100624E07 /* Cerca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B73996F218C93E100624E07 /* Cerca.swift */; };
+		7B739972218C96D900624E07 /* CustomItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B739971218C96D900624E07 /* CustomItems.swift */; };
+		7BAB625D218E2CEC00AF1B00 /* Riassunto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAB625C218E2CEC00AF1B00 /* Riassunto.swift */; };
+		7BD9BDDB218C9FE5004EA9AD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7BD9BDDA218C9FE5004EA9AD /* Podfile */; };
+		7BD9BDDE218CA75C004EA9AD /* UtilFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9BDDD218CA75C004EA9AD /* UtilFunctions.swift */; };
+		7BE14125218C696C0012DAFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE14124218C696C0012DAFA /* AppDelegate.swift */; };
+		7BE14127218C696C0012DAFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE14126218C696C0012DAFA /* ViewController.swift */; };
+		7BE1412A218C696C0012DAFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE14128218C696C0012DAFA /* Main.storyboard */; };
+		7BE1412C218C696C0012DAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE1412B218C696C0012DAFA /* Assets.xcassets */; };
+		7BE1412F218C696C0012DAFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE1412D218C696C0012DAFA /* LaunchScreen.storyboard */; };
+		EA17C1D36AFD4C97F899312F /* Pods_PrenotaUnCampo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6E605B3CC9A6F78A231633 /* Pods_PrenotaUnCampo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F6E605B3CC9A6F78A231633 /* Pods_PrenotaUnCampo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrenotaUnCampo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B73996F218C93E100624E07 /* Cerca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Cerca.swift; path = Cerca/Cerca.swift; sourceTree = "<group>"; };
+		7B739971218C96D900624E07 /* CustomItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItems.swift; sourceTree = "<group>"; };
+		7BAB625C218E2CEC00AF1B00 /* Riassunto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Riassunto.swift; path = Cerca/Riassunto.swift; sourceTree = "<group>"; };
+		7BD9BDDA218C9FE5004EA9AD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BD9BDDD218CA75C004EA9AD /* UtilFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilFunctions.swift; sourceTree = "<group>"; };
+		7BE14121218C696C0012DAFA /* PrenotaUnCampo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrenotaUnCampo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE14124218C696C0012DAFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BE14126218C696C0012DAFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BE14129218C696C0012DAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BE1412B218C696C0012DAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BE1412E218C696C0012DAFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BE14130218C696C0012DAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D909455F8E39C31B32571817 /* Pods-PrenotaUnCampo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrenotaUnCampo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrenotaUnCampo/Pods-PrenotaUnCampo.release.xcconfig"; sourceTree = "<group>"; };
+		E877EE67E555D9EDEBE9EB9C /* Pods-PrenotaUnCampo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrenotaUnCampo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrenotaUnCampo/Pods-PrenotaUnCampo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BE1411E218C696C0012DAFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA17C1D36AFD4C97F899312F /* Pods_PrenotaUnCampo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BD9BDDC218CA73A004EA9AD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7BD9BDDD218CA75C004EA9AD /* UtilFunctions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7BE14118218C696C0012DAFA = {
+			isa = PBXGroup;
+			children = (
+				7BE14123218C696C0012DAFA /* PrenotaUnCampo */,
+				7BE14122218C696C0012DAFA /* Products */,
+				CDB8C24DC5DD2D5FCEA837C2 /* Pods */,
+				D55E97FC47A74E52ADC958A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BE14122218C696C0012DAFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BE14121218C696C0012DAFA /* PrenotaUnCampo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BE14123218C696C0012DAFA /* PrenotaUnCampo */ = {
+			isa = PBXGroup;
+			children = (
+				7BD9BDDC218CA73A004EA9AD /* Utilities */,
+				7BE14124218C696C0012DAFA /* AppDelegate.swift */,
+				7BE1412D218C696C0012DAFA /* LaunchScreen.storyboard */,
+				7BE14128218C696C0012DAFA /* Main.storyboard */,
+				7B739971218C96D900624E07 /* CustomItems.swift */,
+				7BE14126218C696C0012DAFA /* ViewController.swift */,
+				7B73996F218C93E100624E07 /* Cerca.swift */,
+				7BAB625C218E2CEC00AF1B00 /* Riassunto.swift */,
+				7BE1412B218C696C0012DAFA /* Assets.xcassets */,
+				7BE14130218C696C0012DAFA /* Info.plist */,
+				7BD9BDDA218C9FE5004EA9AD /* Podfile */,
+			);
+			path = PrenotaUnCampo;
+			sourceTree = "<group>";
+		};
+		CDB8C24DC5DD2D5FCEA837C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E877EE67E555D9EDEBE9EB9C /* Pods-PrenotaUnCampo.debug.xcconfig */,
+				D909455F8E39C31B32571817 /* Pods-PrenotaUnCampo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D55E97FC47A74E52ADC958A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E605B3CC9A6F78A231633 /* Pods_PrenotaUnCampo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BE14120218C696C0012DAFA /* PrenotaUnCampo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE14133218C696C0012DAFA /* Build configuration list for PBXNativeTarget "PrenotaUnCampo" */;
+			buildPhases = (
+				A064B3D5EA01D73F67FD963A /* [CP] Check Pods Manifest.lock */,
+				7BE1411D218C696C0012DAFA /* Sources */,
+				7BE1411E218C696C0012DAFA /* Frameworks */,
+				7BE1411F218C696C0012DAFA /* Resources */,
+				5BF13B16B72644B891ADDACF /* [CP] Embed Pods Frameworks */,
+				F25C3DDF2B129C6F3611091A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrenotaUnCampo;
+			productName = PrenotaUnCampo;
+			productReference = 7BE14121218C696C0012DAFA /* PrenotaUnCampo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BE14119218C696C0012DAFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "StefanoDemattè";
+				TargetAttributes = {
+					7BE14120218C696C0012DAFA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7BE1411C218C696C0012DAFA /* Build configuration list for PBXProject "PrenotaUnCampo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BE14118218C696C0012DAFA;
+			productRefGroup = 7BE14122218C696C0012DAFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BE14120218C696C0012DAFA /* PrenotaUnCampo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BE1411F218C696C0012DAFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE1412F218C696C0012DAFA /* LaunchScreen.storyboard in Resources */,
+				7BE1412C218C696C0012DAFA /* Assets.xcassets in Resources */,
+				7BD9BDDB218C9FE5004EA9AD /* Podfile in Resources */,
+				7BE1412A218C696C0012DAFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BF13B16B72644B891ADDACF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrenotaUnCampo/Pods-PrenotaUnCampo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrenotaUnCampo/Pods-PrenotaUnCampo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A064B3D5EA01D73F67FD963A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrenotaUnCampo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F25C3DDF2B129C6F3611091A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrenotaUnCampo/Pods-PrenotaUnCampo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrenotaUnCampo/Pods-PrenotaUnCampo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BE1411D218C696C0012DAFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAB625D218E2CEC00AF1B00 /* Riassunto.swift in Sources */,
+				7BE14127218C696C0012DAFA /* ViewController.swift in Sources */,
+				7BD9BDDE218CA75C004EA9AD /* UtilFunctions.swift in Sources */,
+				7B739972218C96D900624E07 /* CustomItems.swift in Sources */,
+				7BE14125218C696C0012DAFA /* AppDelegate.swift in Sources */,
+				7B739970218C93E100624E07 /* Cerca.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BE14128218C696C0012DAFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BE14129218C696C0012DAFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BE1412D218C696C0012DAFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BE1412E218C696C0012DAFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BE14131218C696C0012DAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BE14132218C696C0012DAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BE14134218C696C0012DAFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E877EE67E555D9EDEBE9EB9C /* Pods-PrenotaUnCampo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73L76J2D29;
+				INFOPLIST_FILE = PrenotaUnCampo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StefanoDematte-.PrenotaUnCampo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BE14135218C696C0012DAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D909455F8E39C31B32571817 /* Pods-PrenotaUnCampo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73L76J2D29;
+				INFOPLIST_FILE = PrenotaUnCampo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StefanoDematte-.PrenotaUnCampo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BE1411C218C696C0012DAFA /* Build configuration list for PBXProject "PrenotaUnCampo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE14131218C696C0012DAFA /* Debug */,
+				7BE14132218C696C0012DAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE14133218C696C0012DAFA /* Build configuration list for PBXNativeTarget "PrenotaUnCampo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE14134218C696C0012DAFA /* Debug */,
+				7BE14135218C696C0012DAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BE14119218C696C0012DAFA /* Project object */;
+}
